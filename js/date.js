@@ -1,6 +1,3 @@
-document.querySelector('#©')
-.textContent = new Date(Date.now()).getFullYear();
-
 const date = new Date();
 const year = date.getFullYear();
 
