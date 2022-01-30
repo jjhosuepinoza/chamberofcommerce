@@ -83,6 +83,12 @@ nav a:hover {
 }
 
 main {
+	background-color: #a7bcb9 ;
+	display: flex;
+	flex-flow: column;
+	align-items: center;
+	justify-content: center;
+	padding: 10px;
 	display: grid;
 	grid-template-columns: 1fr 1fr;
 	align-items: center;
