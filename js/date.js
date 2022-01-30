@@ -1,6 +1,13 @@
 document.querySelector('#©')
 .textContent = new Date(Date.now()).getFullYear();
 
+const date = new Date();
+const year = date.getFullYear();
+
+
+document.querySelector("#year").textContent = year;
+document.getElementById("updated").textContent = `Last Modification: ${document.lastModified}`;
+
 // select the elements to manipulate (output to)
 const datefield = document.querySelector("date");
 const datefieldUK = document.querySelector("aside"); // for european/family history format with day first.
