@@ -83,6 +83,7 @@ margin:auto;
 grid-gap:5px;
 /*width:960px;*/
 /*height:700px;*/
+align-items: center;
 padding: 5px;
 grid-template-areas: 
 "a b b c"
