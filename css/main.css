@@ -99,6 +99,9 @@ grid-template-areas:
 }
 .item1 {
     grid-area: a;
+    border-radius: 10px;
+    padding: 1rem;
+    box-shadow: 3px 3px 5px #FEF9EF;
 }
 .item2 {
     grid-area: b;
