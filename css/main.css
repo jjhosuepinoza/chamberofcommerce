@@ -77,12 +77,12 @@ date {
 
 .grid {
 display:grid;
-grid-template-columns: repeat(4,auto); 
-grid-template-rows: repeat(4,auto); 
+grid-template-columns: repeat(4,fr); 
+grid-template-rows: 200px 200px 200px  200px; 
 margin:auto;
 grid-gap:5px;
 width:960px;
-height:700px;
+/*height:700px;*/
 padding: 5px;
 grid-template-areas: 
 "a b b c"
