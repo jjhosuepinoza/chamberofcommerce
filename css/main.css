@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
 body {
     background-color: #227C9D;
     color: rgb(10, 7, 7);
@@ -11,6 +11,7 @@ body {
 
 .name {
     text-align: center;
+    font-family: 'Open Sans', sans-serif;
 }
 .assingment {
     border-bottom: 1px solid rgb(68, 67, 67);
