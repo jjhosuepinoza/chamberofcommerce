@@ -90,3 +90,9 @@ padding: 5px;
 .item2{
     grid-area: 1/2/4/3;
 }
+.item3{
+    grid-area: 1/1/2/2;
+}
+.item4{
+    grid-area: 1/2/4/3;
+}
