@@ -131,10 +131,9 @@ padding: 5px;
     box-shadow: 3px 3px 5px grey;
 }
 .picture2{
-display:flex;
 border-radius: 10px;
 padding: -1rem;
-justify-content: flex-start;
+
 }
 
 .text{
