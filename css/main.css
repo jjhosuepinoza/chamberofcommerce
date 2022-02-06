@@ -87,14 +87,14 @@ grid-template-areas: "a b b c"
 grid-template-columns: repeat(4, 25%);
 grid-template-rows: 200px 100px 100px  200px; 
 grid-gap:5px;
-max-width: 960px;
+/*max-width: 960px;*/
 /*width:960px;*/
 /*height:700px;*/
 /*align-items: center;*/
 margin:auto;
 padding: 5px;
 
-                    }
+}
 .item1 {
     grid-area: a;
    
