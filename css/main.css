@@ -68,7 +68,7 @@ date {
 	background-color: #eee;
 }
 
-#grid {
+.grid {
 display:grid;
 grid-template-columns: repeat(4,100px); 
 grid-template-rows: repeat(4,100px); 
