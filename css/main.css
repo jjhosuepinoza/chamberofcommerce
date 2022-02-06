@@ -81,6 +81,7 @@ grid-template-areas:
 "d b b e"
 "d b b e"
 "f g g h";
+align-content:center;
 }
 .item1 {
     grid-area: a;
@@ -108,6 +109,5 @@ grid-template-areas:
 }
 
 .content{
-    width: 800px;
-    margin: 0 auto;
+    align-content: center;
 }
