@@ -127,3 +127,7 @@ padding: 5px;
     padding: 1rem;
     box-shadow: 3px 3px 5px grey;
 }
+.picture2{
+display:flex;
+justify-content: center;
+}
