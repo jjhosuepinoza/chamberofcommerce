@@ -99,10 +99,11 @@ padding: 5px;
     grid-area: a;
    
 }
-/*.item2 {
+.item2 {
     grid-area: b;
-   
-}*/
+    display: inline-block;
+    text-align: center;
+}
 .item3{
     grid-area: c;
 }
@@ -131,9 +132,6 @@ padding: 5px;
 .picture2{
 border-radius: 10px;
 grid-area: b;
-position: relative;
-display: inline-block;
-text-align: center;
 }
 
 .text{
