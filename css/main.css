@@ -98,7 +98,7 @@ grid-template-areas:
 
 }
 .item1 {
-    grid-area: 'a';
+    grid-area: 1/1/2/2;
     border-radius: 10px;
     padding: 1rem;
     box-shadow: 3px 3px 5px #FEF9EF;
@@ -132,4 +132,5 @@ grid-template-areas:
 }
 .picture2{
     grid-area: b;
+    
 }
