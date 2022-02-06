@@ -68,9 +68,24 @@ footer {
     box-shadow: 3px 3px 5px #FEF9EF;
 }
 
-date {
+#date {
 	margin: 0.5rem;
 	border: 1px solid #bbb;
 	padding: 0.75rem;
 	background-color: #eee;
+}
+
+#grid {
+display:grid;
+grid-template-columns: 1fr 1fr 1fr 1fr; 
+grid-template-rows: 1fr 1fr 1fr 1fr; 
+grid-gap:5px;
+padding: 5px;
+background-color: #17C3B2;
+}
+.item1{
+    grid-area: 1/1/2/2;
+}
+.item2{
+    grid-area: 2/1/4/3;
 }
