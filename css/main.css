@@ -89,35 +89,35 @@ max-width: 960px;
 /*align-items: center;*/
 margin:auto;
 padding: 5px;
-grid-template-areas: "a b b c" 
-                     "d b b e" 
-                     "d b b e"
-                     "f g g h";
+grid-template-areas: "1 2 2 3" 
+                     "4 2 2 5" 
+                     "4 2 2 5"
+                     "6 7 7 8";
                     }
 .item1 {
-    grid-area: a;
+    grid-area: 1;
    
 }
 .item2 {
-    grid-area: b;
+    grid-area: 2;
 }
 .item3{
-    grid-area: c;
+    grid-area: 3;
 }
 .item4 {
-    grid-area: d;
+    grid-area: 4;
 }
 .item5 {
-    grid-area: e;
+    grid-area: 5;
 }
 .item6 {
-    grid-area: f;
+    grid-area: 6;
 }
 .item7 {
-    grid-area: g;
+    grid-area: 7;
 }
 .item8 {
-    grid-area: h;
+    grid-area: 8;
 }
 
 .item1,.item2,.item3,.item4,.item5,.item6,.item7,.item8{
