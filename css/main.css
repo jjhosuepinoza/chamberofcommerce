@@ -70,11 +70,9 @@ date {
 
 .grid {
 display:grid;
-grid-template-columns: repeat(4,100px); 
-grid-template-rows: repeat(4,100px); 
+grid-template-columns: repeat(4,auto); 
+grid-template-rows: repeat(4,auto); 
 grid-gap:5px;
-width: 500px;
-height:500px;
 padding: 5px;
 grid-template-areas: 
 "a b b c"
