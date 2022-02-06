@@ -101,6 +101,7 @@ padding: 5px;
 }
 .item2 {
     grid-area: b;
+    position: relative;
     display: inline-block;
     text-align: center;
 }
