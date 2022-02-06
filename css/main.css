@@ -101,7 +101,7 @@ padding: 5px;
     grid-area: 4;
 }
 .item4 {
-    grid-area: 4;
+    grid-column: 4;
 }
 .item5 {
     grid-area: 5;
