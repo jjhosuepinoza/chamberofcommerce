@@ -123,5 +123,6 @@ grid-template-areas:
 
 
 .picture{
-    float: left;
+    display:flex;
+    align-content:flex-start;
 }
