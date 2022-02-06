@@ -81,7 +81,6 @@ grid-template-columns: 1fr 1fr 1fr 1fr;
 grid-template-rows: 1fr 1fr 1fr 1fr; 
 grid-gap:5px;
 padding: 5px;
-background-color: #17C3B2;
 }
 .item1{
     grid-area: 1/1/2/2;
