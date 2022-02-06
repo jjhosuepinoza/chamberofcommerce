@@ -80,7 +80,6 @@ date {
 
 .grid {
 display:grid;
-background-color:#227C9D;
 grid-template-columns: repeat(4,fr); 
 grid-template-rows: 200px 200px 200px  200px; 
 grid-gap:5px;
