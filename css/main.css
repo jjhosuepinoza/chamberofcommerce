@@ -78,7 +78,7 @@ date {
 	background-color: #eee;
 }
 
-.grid {
+.grid-container {
 display:grid;
 grid-template-columns: repeat(4, 25%);
 grid-template-rows: 200px 200px 200px  200px; 
