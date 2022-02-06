@@ -132,7 +132,7 @@ padding: 5px;
 }
 .picture2{
 border-radius: 10px;
-grid-area: b;
+object-fit: contain;
 }
 
 .text{
