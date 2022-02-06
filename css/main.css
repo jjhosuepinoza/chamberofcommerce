@@ -108,3 +108,7 @@ grid-template-areas:
     grid-area: h;
 }
 
+.content {
+    max-width: 960;
+    margin: auto;
+  }
