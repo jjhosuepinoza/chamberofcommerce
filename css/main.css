@@ -38,7 +38,9 @@ header {
     
 }
 
-
+nav div {
+	flex: 1 1 auto;
+}
 nav {
 	display: flex;
 	flex-direction: row;
