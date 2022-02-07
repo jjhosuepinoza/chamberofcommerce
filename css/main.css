@@ -22,8 +22,8 @@ body {
     border-top: 1px solid rgb(68, 67, 67);
     font-weight: bold;
     text-align: center;
-    grid-auto-rows: 2;
-    grid-template-columns: 1/4;
+    grid-row: 2;
+    grid-column: 1/4;
 }
 
 header {
