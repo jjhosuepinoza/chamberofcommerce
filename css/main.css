@@ -166,11 +166,9 @@ padding: 10px;
  margin-left: -60px;
  padding: 0.5rem;
 }
-.picture2{
-border-radius: 10px;
-display:flex;
-justify-content: start;
-}
+/*.picture2{
+
+}*/
 
 .text{
     position: absolute;
