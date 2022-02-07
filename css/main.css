@@ -86,7 +86,7 @@ footer {
 
 date {
     text-align: center;
-    font-family: 'Open Sans', sans-serif;     
+    font-family: 'Open Sans', sans-serif, black;     
 	margin: 0.5rem;
     grid-column: 1/8;
     grid-row: 2;
