@@ -87,7 +87,7 @@ footer {
 date {
     display:flex;
     justify-content:center ;
-     margin-top: -75px;     
+    margin-top: -150px;     
 	margin: 0.5rem;
     grid-column: 1/8;
     grid-row: 2;
