@@ -81,6 +81,7 @@ footer {
     box-shadow: 3px 3px 5px #FEF9EF;
     max-width: auto;
     margin: auto;
+    display:flex;
 }
 
 date {
