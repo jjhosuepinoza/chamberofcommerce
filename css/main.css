@@ -237,6 +237,6 @@ margin-right:200px;
     margin: 4px 2px;
     transition-duration: 0.4s;
     cursor: pointer;
-    bottom: 10px;
-    right: 10px;
+  margin-top: 100px;
+  margin-left: 50px;
   }
