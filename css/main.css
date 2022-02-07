@@ -85,6 +85,8 @@ footer {
 }
 
 date {
+    display:flex;
+    justify-content:center ;
      margin-top: -75px;     
 	margin: 0.5rem;
     grid-column: 1/8;
