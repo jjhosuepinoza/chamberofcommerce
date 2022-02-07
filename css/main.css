@@ -15,6 +15,7 @@ body {
     text-align: center;
     font-family: 'Open Sans', sans-serif;
     grid-column: 2/3;
+    grid-row: 1fr 20px;
     margin-left: -75px;
 }
 .assingment {
@@ -79,6 +80,7 @@ date {
    display:flex;
     align-items: flex-end;
 	margin: 0.5rem;
+    grid-row: 2;
 	border: 1px solid #bbb;
 	padding: 0.75rem;
 	background-color: #eee;
