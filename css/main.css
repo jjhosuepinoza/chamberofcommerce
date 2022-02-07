@@ -136,7 +136,8 @@ padding: 10px;
 }
 .picture{
  grid-column:1/2 ;
- margin-top: -5px;
+ margin-top: -75px;
+ margin-left: -75px;
 }
 .picture2{
 border-radius: 10px;
