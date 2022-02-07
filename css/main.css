@@ -85,7 +85,7 @@ footer {
 }
 
 date {
-    align-content: center;
+    text-align: center;
     margin-top: -150px;     
 	margin: 0.5rem;
     grid-column: 1/8;
