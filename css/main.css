@@ -199,10 +199,12 @@ margin-top: -75px;
 .picture3{
 grid-column: 1;
 margin-top: -70px;
+margin-left: 30px;
 }
 .location{
-grid-column: 2/3;
+grid-column: 2;
+margin-right: 30px;
 }
 .information{
-grid-column: 4;
+grid-column: 3;
 }
