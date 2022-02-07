@@ -16,7 +16,7 @@ body {
     font-family: 'Open Sans', sans-serif;
     grid-column: 2/3;
     grid-row: 1fr 20px;
-    margin-left: -75px;
+    margin-top: -75px;
     margin-left: -75px;
 }
 .assingment {
