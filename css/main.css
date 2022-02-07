@@ -216,9 +216,7 @@ margin-right:200px;
 }
 
 .button {
-    position: absolute;
-    bottom: 10px;
-    right: 10px;
+    
     border: none;
     color: white;
     padding: 15px 32px;
@@ -239,4 +237,7 @@ margin-right:200px;
     margin: 4px 2px;
     transition-duration: 0.4s;
     cursor: pointer;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
   }
