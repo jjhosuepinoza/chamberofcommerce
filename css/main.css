@@ -26,7 +26,6 @@ body {
 header {
  
 	align-items: center;
-	justify-content: space-between;
     display: grid;
     grid-template-columns: repeat(8,fr) ;
     grid-template-rows: 1fr 10px;
@@ -42,8 +41,8 @@ header {
 nav{
 margin: 0;
 grid-column: 4/5;
-font-family: 'Montserrat', sans-serif;
-margin-left: -75px;
+font-family: 'Open Sans', sans-serif;
+margin-top: -75px;
 margin-left: -75px;
 }
 
