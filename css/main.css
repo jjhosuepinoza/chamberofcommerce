@@ -89,7 +89,6 @@ footer {
     display:flex;
     display: grid;
    grid-template-columns: repeat (3,fr);
-    grid-template-rows:1fr 5px ;
 }
 
 date {
