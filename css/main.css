@@ -142,9 +142,7 @@ padding: 10px;
     text-align: justify;
     display: flex;
     background-image: url("https://cdn.glitch.global/b871c8c6-5f77-4d6d-a1fd-f6f97a229c4a/pecs.png?v=1644213681662");
-    background-repeat: no-repeat;
-    background-attachment: fixed;  
-    background-size: cover;
+ 
 }
 .item3{
     grid-area: c;
