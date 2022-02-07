@@ -18,8 +18,8 @@ body {
     margin-top: -75px;
     margin-left: -150px;
 }
-.text {
-    border-bottom: 1px solid rgb(68, 67, 67);
+.signature {
+    border-top: 1px solid rgb(68, 67, 67);
     font-weight: bold;
 }
 
