@@ -166,7 +166,7 @@ padding: 10px;
 .picture2{
 border-radius: 10px;
 display:flex;
-justify-content: center;
+justify-content: flex-start;
 }
 
 .text{
