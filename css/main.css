@@ -21,6 +21,9 @@ body {
 .signature {
     border-top: 1px solid rgb(68, 67, 67);
     font-weight: bold;
+    text-align: center;
+    grid-auto-rows: 2;
+    grid-template-columns: 1/4;
 }
 
 header {
@@ -89,6 +92,7 @@ footer {
     display:flex;
     display: grid;
    grid-template-columns: 1fr 1fr 1fr 1fr;
+   grid-template-rows: 1fr 10px;
    
 }
 
