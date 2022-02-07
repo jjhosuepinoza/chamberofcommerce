@@ -164,5 +164,6 @@ grid-column: 5;
 }
 .icon2
 {
-    grid-column: 6;    
+    grid-column: 6;
+    border-radius: 10px;
     }
