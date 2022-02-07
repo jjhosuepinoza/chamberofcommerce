@@ -88,8 +88,8 @@ footer {
     margin: auto;
     display:flex;
     display: grid;
-    grid-template-columns: repeat (4,fr);
-    grid-template-rows:1fr 5px ;
+   /* grid-template-columns: repeat (4,fr);
+    grid-template-rows:1fr 5px ;*/
 }
 
 date {
@@ -190,3 +190,4 @@ margin-top: -75px;
     grid-column: 6;
     border-radius: 10px;
     }
+
