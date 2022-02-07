@@ -207,6 +207,6 @@ grid-column: 2;
 margin-left: -30px;
 }
 .information{
-grid-column: 4;
+grid-column: 3/4;
 margin-right:300px;
 }
