@@ -46,6 +46,7 @@ header {
 
 
 nav{
+text-decoration:none;
 display: flex;
 gap: 20px;
 margin: 0;
