@@ -223,11 +223,13 @@ margin-right:200px;
     position: absolute;
     bottom: 10px;
     left: 10px;
+    border-radius: 10px;
   }
 
 .button1 {
    display: inline-block;
    color: white;
    color: rgb(33, 131, 170);
+   border-radius: 10px;
    
   }
