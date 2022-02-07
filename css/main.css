@@ -156,7 +156,11 @@ justify-content: center;
     left: 10px;
 }
 
-.icon1, .icon2
+.icon1 
 {
-grid-column: 5/6;    
+grid-column: 5;    
 }
+.icon2
+{
+    grid-column: 6;    
+    }
