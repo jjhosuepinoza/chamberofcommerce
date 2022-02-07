@@ -224,6 +224,7 @@ margin-right:200px;
     bottom: 10px;
     left: 10px;
     border-radius: 10px;
+    cursor:pointer;
   }
 
 .button1 {
@@ -231,5 +232,5 @@ margin-right:200px;
    color: #17C3B2;;
    background-color: rgb(33, 131, 170);
    border-radius: 10px;
-   
+   cursor:pointer;
   }
