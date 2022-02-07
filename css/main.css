@@ -167,11 +167,13 @@ content: left;
 
 .icon1 
 {
-grid-column: 5;    
+grid-column: 5;  
+margin-top: -75px;  
 }
 .icon2
 {
     margin-left: -55px;
+    margin-top: -75px;  
     grid-column: 6;
     border-radius: 10px;
     }
