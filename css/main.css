@@ -227,5 +227,6 @@ margin-right:200px;
   }
 
 .button1 {
-   
+   display: inline-block;
+   color: white;
   }
