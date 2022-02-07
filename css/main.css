@@ -236,6 +236,6 @@ margin-right:200px;
    cursor:pointer;
   }
 
-  .button1:hover {
+  .button1,button:hover {
     background-color: white;
     color: #FFCB77;}
