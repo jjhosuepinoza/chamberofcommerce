@@ -25,7 +25,7 @@ header {
 	align-items: center;
 	justify-content: space-between;
     display: grid;
-    grid-template-columns: auto 1fr;
+    grid-template-columns: repeat(10,fr) ;
     background-color: #17C3B2;
     border-radius: 10px;
     padding: 1rem;
@@ -133,6 +133,9 @@ padding: 10px;
     border-radius: 10px;
     padding: 1rem;
     box-shadow: 3px 3px 5px grey;
+}
+.picture{
+ grid-column:1/2 ;   
 }
 .picture2{
 border-radius: 10px;
