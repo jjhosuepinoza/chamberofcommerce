@@ -33,6 +33,7 @@ header {
     background-color: #17C3B2;
     border-radius: 10px;
     padding:10px;
+    padding-bottom: -50px;
     /*padding: 1rem;*/
     /*box-shadow: 3px 3px 5px #FEF9EF;*/
 
@@ -100,7 +101,7 @@ date {
     border-width: 960px solid #227C9D;
 	padding: 0.75rem;
 	background-color: #15796f9c;
-    padding-bottom: -50px;
+    
 }
 
 .grid-container {
