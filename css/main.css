@@ -89,6 +89,7 @@ date {
     text-align: center;
     font-family: 'Open Sans', sans-serif, black;     
 	/*margin: 0.5rem;*/
+    margin-top: -75px;
     grid-column: 1/8;
     grid-row: 2;
 	/*border: 2px solid #bbb;*/
