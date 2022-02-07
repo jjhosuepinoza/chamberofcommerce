@@ -51,7 +51,7 @@ font-weight: bold;
 }
 
 .h2{
-    margin-top: -15px;
+    margin-top: -50px;
 }
 p {
 
@@ -162,7 +162,7 @@ padding: 10px;
 .picture2{
 border-radius: 10px;
 display:flex;
-content: left;
+justify-content: center;
 }
 
 .text{
