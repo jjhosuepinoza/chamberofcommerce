@@ -169,6 +169,7 @@ grid-column: 5;
 }
 .icon2
 {
+    margin-left: -55px;
     grid-column: 6;
     border-radius: 10px;
     }
