@@ -90,7 +90,7 @@ grid-template-areas: "a b b c"
 grid-template-columns: repeat(4, 25%);
 grid-template-rows: 200px 100px 100px  200px; 
 grid-gap:5px;
-max-width: auto;
+max-width: 1000px;
 /*width:960px;*/
 /*height:700px;*/
 /*align-items: center;*/
