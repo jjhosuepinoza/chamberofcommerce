@@ -87,6 +87,9 @@ footer {
     max-width: auto;
     margin: auto;
     display:flex;
+    display: grid;
+    grid-template-columns: repeat (4,fr);
+    grid-template-rows:1fr 5px ;
 }
 
 date {
