@@ -193,13 +193,14 @@ justify-content: start;
 {
 grid-column: 5;  
 margin-top: -85px;  
+border-radius: 10px;
 }
 .icon2
 {
     margin-left: -55px;
     margin-top: -75px;  
     grid-column: 6;
-    border-radius: 10px;
+    
     }
 .picture3{
 grid-column: 1;
