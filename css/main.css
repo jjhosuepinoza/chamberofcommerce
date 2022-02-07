@@ -154,7 +154,7 @@ padding: 10px;
 .picture2{
 border-radius: 10px;
 display:flex;
-justify-content: left;
+content: left;
 }
 
 .text{
