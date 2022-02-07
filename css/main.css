@@ -218,7 +218,7 @@ margin-right:200px;
 .button {
     border: none;
     color: rgb(33, 131, 170);
-    padding: 15px 32px;
+    padding: 5px 20px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -232,4 +232,5 @@ margin-right:200px;
    display: inline-block;
    color: white;
    color: rgb(33, 131, 170);
+   
   }
