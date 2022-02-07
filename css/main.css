@@ -24,6 +24,9 @@ body {
 }
 
 header {
+    display:flex;
+	align-items: center;
+	justify-content: space-between;
     display: grid;
     grid-template-columns: repeat(8,fr) ;
     grid-template-rows: 1fr 10px;
