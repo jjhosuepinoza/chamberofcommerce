@@ -185,7 +185,7 @@ justify-content: start;
 .text{
     position: absolute;
     top: 10px;
-    left: 10px;
+    right: 20px;
     color:black;
 }
 
