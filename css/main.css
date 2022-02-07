@@ -86,7 +86,7 @@ footer {
 
 date {
    display:flex;
-    align-items: center;
+    justify-content: center;
 	margin: 0.5rem;
     grid-row: 2;
 	border: 1px solid #bbb;
