@@ -166,9 +166,11 @@ padding: 10px;
  margin-left: -60px;
  padding: 0.5rem;
 }
-/*.picture2{
-
-}*/
+.picture2{
+border-radius: 10px;
+display:flex;
+justify-content: start;
+}
 
 .text{
     position: absolute;
@@ -188,7 +190,9 @@ margin-top: -75px;
     grid-column: 6;
     border-radius: 10px;
     }
-
+.picture3{
+grid-column: 1;
+}
 .location{
 grid-column: 1/3;
 }
