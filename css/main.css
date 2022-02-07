@@ -17,6 +17,7 @@ body {
     grid-column: 2/3;
     grid-row: 1fr 20px;
     margin-left: -75px;
+    margin-left: -75px;
 }
 .assingment {
     border-bottom: 1px solid rgb(68, 67, 67);
@@ -42,6 +43,8 @@ nav{
 margin: 0;
 grid-column: 4/5;
 font-family: 'Montserrat', sans-serif;
+margin-left: -75px;
+margin-left: -75px;
 }
 
 
