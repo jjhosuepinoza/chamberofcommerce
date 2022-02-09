@@ -85,7 +85,8 @@ p{
    .footer{
     grid-area: footer;
     background-color:#17C3B2 ;
-    
+    padding: 20px 20px 20px 20px;
+
     }
     /* .information{
         display:flex;
@@ -123,7 +124,10 @@ p{
     .aside{
         grid-area: aside;
         gap:10px;
-        display:grid
+        display:grid;
+        grid-template:
+    "delivery"auto
+    "companies"auto
     }
      .event,.main,.weather,.news,.aside
      {
@@ -158,14 +162,11 @@ p{
     display:none;
 
 }
-   .aside{
-    display:grid; 
-
-    grid-template:
-    "delivery"auto
-    "companies"auto
-    ;
-} 
+.text{
+    text-shadow: 2px 2px 2px black,
+    2px 2px 1px black; 
+    color:aqua;
+}
 
 .button {
     padding: 0 10px;
@@ -197,6 +198,15 @@ p{
    
         }
 
+    .banner2{
+        padding-bottom: 10px;
+    }
+.information{
+    display: grid;
+    padding:50px 0 50px 0;
+    gap:10px;
+   
+}
      /* navigation bar */
         .navigation {
             
@@ -241,6 +251,7 @@ p{
             content: "✖️ ";
         }
         
+
         /* Media Query for medium+ views */
         @media only screen and (min-width: 37.5em) {
             .navigation {
@@ -294,7 +305,7 @@ p{
    
 } 
  .information{
-    margin-left:100px ;
+    padding-left:100px;
 } 
 } 
 
@@ -352,8 +363,8 @@ grid-template:
             2px 2px 1px black; 
             margin-top: -5px;
             text-align: left;
-        color:rgb(15, 139, 170);
-         font-size:4em;}
+            color:rgb(15, 139, 170);
+            font-size:4em;}
        
          .button{
          font-size: 1.25em;
@@ -392,7 +403,9 @@ grid-template:
      .navigation a {
                 font-size: clamp(1.5em, 2vmin, 1.5rem);
             }
-        
+            .information{
+                padding-left:300px;
+            } 
 }   
 
           
