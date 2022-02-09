@@ -7,78 +7,91 @@
     
     <title>Chamber of Commerce</title>
     <meta name = "description" content="Chamber of Commerce" >
-    <link rel="icon" href="images/CAMERA OF COMMERCE.png">
-    <link rel="stylesheet" href="css/small.css">
+    <link rel="icon" href="images/CAMERA OF COMMERCE.png" >
+
     <link rel="stylesheet" href="css/medium.css">
     <link rel="stylesheet" href="css/large.css">
-    <link href="css/main.css" rel="stylesheet">
-    <link href="css/normalize.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css" >
+    <link rel="stylesheet" href="css/normalize.css" >
 </head>
-<body>
-<div class="content">
-<header>
-<img class= "picture " src ="images/CAMERA OF COMMERCE.png" alt="A placeholder image" width="270" height="270">
-<div class = "name"><h1>Pécs</h1><h2>Chamber of Commerce</h2></div>
-<date></date>
-<nav>
 
-    <a href="index.html"> Home</a>
-	<a href="target-audience.html">Discovery</a>
-	<a href="color-scheme.html">Directory</a>
-	<a href="typography.html">Join</a>
-    <a href="Contact">Contact</a>
+
+<body class="grid-container">
+
+<header class="header">
+    <div class="banner">
+<img class= "picture " src ="images/CAMERA OF COMMERCE.png" alt="A placeholder image" width="72px" height="72px">
+<div class = "name"><b><p>Pécs</p><p>Chamber of Commerce</p></b></div>
+
+<nav>
+<ul class=" navigation responsive">
+   <li> <a class="ham" href="#">Menu</a></li>
+   <li><a href="index.html">Home</a></li>
+	<li><a href="target-audience.html">Discovery</a></li>
+        <li><a href="color-scheme.html">Directory</a></li>
+            <li><a href="typography.html">Join</a></li>
+                <li><a href="Contact">Contact</a></li>
+</ul>
 </nav>
 
 <a href="https://www.facebook.com/"><img class="icon1"  src="images/facebook.png" alt="facebook"></a>
 <a href="https://www.linkedin.com/"><img class="icon2"  src="images/linkedin.png" alt="linkedin"></a>
+</div>
+<date></date>
 </header>
 
-<main>  
-<div class='grid-container'>
-<div class ='item1'>
-<h1>Events🤝</h1>
-<p>Weekly events where everybody would know our efforts to improve the industry!</p>
-</div>
-<div class ='item2'>
-<!---<img class= "picture2 " src ="images/picture2.jpeg" alt="A placeholder image" width="466px" height="406px">    --->
-<h1 class="text">Welcome to Pécs</h1>
-<button class="button"><h2>Join the Chamber</h2></button>
+    <div class="event">
+    <h1>Events🤝</h1>
+    <p>Weekly events where everybody would know our efforts to improve the industry!</p>
+    </div>
+
+    <main class ="chamber">
+    <!---<img class= "picture2 " src ="images/picture2.jpeg" alt="A placeholder image" width="466px" height="406px">    --->
+    <h1 class="text">Welcome to Pécs</h1>
+    <button class="button"><h2>Join the Chamber</h2></button>
+    </main>
+
+    
+    <div class ="weather"><h1>Weather🌡️</h1><!-- weather widget start --><a target="_blank" href="https://hotelmix.es/weather/budapest-18069"><img src="https://w.bookcdn.com/weather/picture/32_18069_1_4_34495e_250_2c3e50_ffffff_ffffff_1_2071c9_ffffff_0_6.png?scode=124&domid=582&anc_id=82933" alt="booked.net"/></a><!-- weather widget end -->
+    </div>
+   
+    <div class ='join'>
+    <button class="button1"><h1>Join Us!</h1></button>
+    <p>There are job opportunities that are waiting for you.</p>
+    </div>
+    <div class ='news'><h1>News📰</h1>
+    <p>The recent information about global business</p>
+    </div>
+<div class ="aside">
+    <div class="delivery">
+        <h1>Delivery 🚚</h1>
+        <p>We evolve with the world.</p>
+        </div>
+    <div class ='strategies'><h1>Strategies😷</h1><p>How we endure during the pandemic.</p></div>
+    <div class ='companies'><h1>Companies🏭</h1>
+        <p>We work with the most important enterprises. </p>
+    </div>
+
 </div>
 
-<div class ='item3'><h1>Delivery 🚚</h1>
-<p>We evolve with the world.</p>
-</div>
-<div class ='item4'><h1>Weather🌡️</h1><!-- weather widget start --><a target="_blank" href="https://hotelmix.es/weather/budapest-18069"><img src="https://w.bookcdn.com/weather/picture/32_18069_1_4_34495e_250_2c3e50_ffffff_ffffff_1_2071c9_ffffff_0_6.png?scode=124&domid=582&anc_id=82933" alt="booked.net"/></a><!-- weather widget end -->
-</div>
-<div class ='item5'><h1>Companies🏭</h1>
-<p>We work with the most important enterprises. </p>
-</div>
-<div class ='item6'>
-<button class="button1"><h1>Join Us!</h1></button>
-<p>There are job opportunities that are waiting for you.</p>
-</div>
-<div class ='item7'><h1>News📰</h1>
-<p>The recent information about global business</p>
-</div>
-<div class ='item8'><h1>Strategies😷</h1><p>How we endure during the pandemic.</p></div>
+    <footer class="footer">
+    <div class="banner2">
+    
+    
+        <img class= "picture3 " src ="images/CAMERA OF COMMERCE.png" alt="A placeholder image" width="200" height="200">
+    
+ <div class = "location">    <h2>Pécs Chamber of Commerce</h2>  
+    <h3>Paprika 77 utca, Pécs,Baranya  </h3>  
+    </div>
+    <div class="information">
+    <h3>📧infopecs@email.org </h3> 
+    <h3>📞789-7987-489 </h3> 
+    <h3>📍Location Map </h3> 
+    </div>
+    </div>
+    <div class ='signature'>&copy;<span id="year">2022</span> | Javier Espinoza| Pécs |<span id="updated"></span></div>
+    </footer>
+    <script src="js/date.js"></script>
 
-</div>
-
-</main>  
-<footer>
-<img class= "picture3 " src ="images/CAMERA OF COMMERCE.png" alt="A placeholder image" width="300" height="300">
-<div class = "location">
-<h2>Pécs Chamber of Commerce</h2>  
- <h3>Paprika 77 utca, Pécs,Baranya  </h3>  
-</div>
-<div class="information">
-<h3>📧infopecs@email.org </h3> 
-<h3>📞789-7987-489 </h3> 
-<h3>📍Location Map </h3> 
-</div>
-<div class ='signature'>&copy;<span id="year">2022</span> | Javier Espinoza| Pécs |<span id="updated"></span></div>
-</footer>
-<script src="js/date.js"></script>
-</div>
 </body>
 </html>
