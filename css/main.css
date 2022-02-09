@@ -43,12 +43,21 @@
     
    }
    date{
-    
-    font-size: 1em;
-     background-color: #15796f9c;
+   
+    justify-content: center;
+    font-size: 25px;
+    font-family: 'Open Sans', sans-serif;
+    color: black;
+   font-style: normal;
+     background-color: #23a19b;
+     padding-top: 5px;
+     padding-bottom: 5px;
+     border-radius: 4px;
+   
      /* box-shadow:-1px 1px 7px 0px black;
      border-radius: 4px; */
-     border-width: 960px solid #227C9D; 
+     /* border-width: 960px solid #227C9D;  */
+     
 }
 
    /* date{
@@ -76,6 +85,7 @@ p{
    .footer{
     grid-area: footer;
     background-color:#17C3B2 ;
+    
     }
     /* .information{
         display:flex;
@@ -253,7 +263,7 @@ p{
         flex-flow:row nowrap;
         align-items: center;
         justify-content: center;
-        padding:1em 0;
+
        
     }
 
@@ -301,7 +311,7 @@ p{
 grid-template: 
       
     
-    "header header header header" 175px
+    "header header header header" auto
     "event chamber chamber aside" auto
     "weather chamber chamber aside"auto
     "join news news aside"auto
@@ -312,9 +322,13 @@ grid-template:
      .strategies{
          display:table;
         text-align: center; }    
-
-        .aside{
-            
+     .event,.weather,.join{
+         margin-left: 50px;
+        
+        }
+        
+     .aside{
+            margin-right: 50px;
             display:grid;
             grid-template:
             "delivery"1fr
@@ -351,23 +365,34 @@ grid-template:
             width:60px;
         }
         .banner{
+           
             padding-left: 50px;
             padding-right: 50px;
             flex-flow:row nowrap;
         }
+        .banner2{
+            padding: 30px 30px 30px 30px;
+        }
       .icon1{
-          width:60px
-      }
-               .signature{
-                border-top: 2px solid black;
-                font-size: 1.5em;
-             }
-         
-          .information{
-            margin-left:200px ; }
-            .navigation a {
+          width:60px;
+              
+          }
+      
+
+       /* .signature{
+                border-top: 2px solid grey;
+                font-size: 1em;
+                color: grey;
+               
+             } */
+
+/* 
+       .information{
+            margin-left:200px ; } */
+     .navigation a {
                 font-size: clamp(1.5em, 2vmin, 1.5rem);
             }
+        
 }   
 
           
