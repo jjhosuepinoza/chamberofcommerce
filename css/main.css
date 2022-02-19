@@ -31,11 +31,7 @@
        padding-right: 20px;
        padding-left: 20px; 
        
-       /* display:grid;
-       grid-template: "picture name nav icon1 icon2"
-                       "date date date date date"
-       ; */
-
+    
    }
    .banner{
     display: flex;
@@ -101,7 +97,10 @@ p{
 
     .chamber{
     grid-area:chamber;
-    background-image: url("https://cdn.glitch.global/b871c8c6-5f77-4d6d-a1fd-f6f97a229c4a/large.webp?v=1644710947259");
+    background-image: url("https://cdn.glitch.global/b871c8c6-5f77-4d6d-a1fd-f6f97a229c4a/original.webp?v=1644711513164");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -163,6 +162,8 @@ p{
     text-shadow: 2px 2px 2px black,
     2px 2px 1px black; 
     color:aqua;
+    padding:0 10px 0 10px ;
+    margin-top: -15px;
 }
 
 .button {
@@ -172,6 +173,7 @@ p{
     border-radius: 10px;
     font-size: 1em;
     cursor:pointer;
+    margin-top: 100px;
     
   }
 
@@ -304,7 +306,10 @@ p{
 } 
  .information{
     padding-left:100px;
-} 
+}
+.button{
+    margin-top: 200px;
+}
 } 
 
 
