@@ -36,7 +36,8 @@
    .banner{
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content:space-around;
+
     padding: 10px;
     
    }
@@ -53,7 +54,18 @@
       border-width: 1px solid #227C9D;  
      
 }
+main{
+    text-align: center;
 
+   
+}
+main img[data-src] {
+    filter: blur(0.2em);
+  }
+main img {
+    filter: blur(0em);
+    transition: filter 0.5s;
+  }
 .name{
     display: flex;
     font-size:large;
@@ -75,6 +87,9 @@ p{
     font-size: 1.25em;
     
 }
+main h3{
+    color: azure;
+}
    .footer{
     grid-area: footer;
     background-color:#17C3B2 ;
@@ -90,8 +105,8 @@ p{
     
     
 
-   
-    
+main{grid-area:main;
+}    
     
 
     
@@ -119,13 +134,7 @@ p{
     padding:0 10px 0 10px ;
     margin-top: -15px;
 }
-main img[data-src] {
-    filter: blur(0.2em);
-  }
-main img {
-    filter: blur(0em);
-    transition: filter 0.5s;
-  }
+
   
 
 
@@ -218,7 +227,7 @@ main img {
         "header header header" auto
         "main main main "  auto
         "footer footer footer" auto
-         /1fr 1fr 1fr;
+         /auto ;
 }
 
 
@@ -244,9 +253,9 @@ grid-template:
       
     
     "header header header header" auto
-    " mian main main main " auto
+    " main main main main " auto
     "footer footer footer footer" auto
-    /1fr 1fr 1fr 1fr;
+    /1fr 1fr 1fr 1fr ;
     }
     
      
@@ -260,11 +269,6 @@ grid-template:
             color:rgb(15, 139, 170);
             font-size:4em;}
        
-         .button{
-         font-size: 1.25em;
-          margin-left:-150px;
-        margin-top: 200px
-            ;}  
         .icon2{
             margin-left:10px ;
             width:60px;
