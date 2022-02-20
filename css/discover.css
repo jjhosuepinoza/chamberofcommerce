@@ -227,7 +227,7 @@ main{grid-area:main;
         "header header header" auto
         "main main main "  auto
         "footer footer footer" auto
-         /auto ;
+         /1fr 1fr 1fr;
 }
 
 
