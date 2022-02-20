@@ -255,7 +255,7 @@ grid-template:
     "header header header header" auto
     " main main main main " auto
     "footer footer footer footer" auto
-    /auto ;
+    /1fr 1fr 1fr 1fr;
     }
     
      
