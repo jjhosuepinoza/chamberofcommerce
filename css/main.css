@@ -53,7 +53,7 @@
       border-width: 1px solid #227C9D;  
      
 }
-
+.button1 a {text-decoration: none;}
 .name{
     display: flex;
     font-size:large;
@@ -249,7 +249,7 @@ p{
         .responsive a.ham::before {
             content: "✖️ ";
         }
-        
+       
 
         /* Media Query for medium+ views */
         @media only screen and (min-width: 37.5em) {
