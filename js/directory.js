@@ -1,47 +1,37 @@
-const requestURL = '';
+const requestURL = 'https://jjhosuepinoza.github.io/lesson3/data/data.json';
 const cards = document.querySelector('.cards');
 
 fetch(requestURL).then(function (response) {return response.json();})
   .then(function (jsonObject) {
     console.table(jsonObject);  // temporary checking for valid response and data parsing
-    const prophets = jsonObject['prophets'];
-    prophets.forEach(displayProphets);
+    const companies = jsonObject['companies'];
+    companies.forEach(displayCompanies);
   });
-  
-  if (prophet.order == "1")
-  auxOrder = "st";
-else if (prophet.order == "2")
-  auxOrder = "nd";
-else if (prophet.order == "3")
-  auxOrder = "rd";
-else
-  auxOrder = "th";
 
-  
-  function displayProphets(prophet) {
+  function displayCompanies(company) {
     let card = document.createElement('section');
-    let fullName = document.createElement('h2');
-    let birthdate = document.createElement('p');
-    let birthPlace = document.createElement('p');
-    let portrait = document.createElement('img');
-    let auxOrder = "";
-  
-    
-    fullName.textContent = `${prophet.name} ${prophet.lastname}`; 
-    
-    birthdate.textContent = `Date of Birth: ${prophet.birthdate}`;
-    birthPlace.textContent = `Local of Birth: ${prophet.birthplace}`;
+    let companyName = document.createElement('h2');
+    let companyAddress = document.createElement('p');
+    let companyPhone = document.createElement('p');
+    let companySite = document.createElement('a');
+    let logo = document.createElement('img');
 
+    companyName.textContent = `${company.name}`; 
+    companyAddress.textContent = ` ${company.address}`;
+    companyPhone.textContent = ` ${company.phone}`;
+    companySite.textContent = ` ${company.site}`;
    
-    portrait.setAttribute('src', prophet.imageurl);
-    portrait.setAttribute('alt', `Portrait of ${prophet.name} ${prophet.lastname} - ${prophet.order}${auxOrder} Latter-day President`);
-    portrait.setAttribute('loading', 'lazy');
+    logo.setAttribute('src', company.imageurl);
+    logo.setAttribute('alt', `Logo of ${company.name}`);
+    logo.setAttribute('loading', 'lazy');
   
 
-    card.appendChild(fullName);
-    card.appendChild(birthdate);
-    card.appendChild(birthPlace);
-    card.appendChild(portrait);
+    // card.appendChild(companyName);
+    card.appendChild(logo);
+    card.appendChild(companyAddress);
+    card.appendChild(companyPhone);
+    card.appendChild(companySite);
+    
   
     // Add/append the existing HTML div with the cards class with the section(card)
     cards.appendChild(card);

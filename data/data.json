@@ -1,5 +1,5 @@
 {
-	"companies": [{
+	"Companies": [{
 			"name": "Andersen",
 			"address": " Rein street 52",
 			"phone": " 20 26 12345",
@@ -25,7 +25,7 @@
 			"address": "Apples street 25",
 			"phone": "20 26 45689",
 			"site": "https://green-brands.hu/",
-			"imageurl": "https://cdn.glitch.global/b50831a2-5b43-4e86-92a9-d6dbf7899abd/sstecnologia.jpg?v=1646381626699"
+			"imageurl": "https://cdn.glitch.global/b6de83ad-1877-4ed7-8cf4-34934d3cadee/green.jfif?v=1646534762577"
 		},
 		{
 			"name": "LogMeIn",
@@ -60,7 +60,7 @@
 			"address": "Runner street 56",
 			"phone": "20 26 45698",
 			"site": "https://prezi.com/en/",
-			"imageurl": "https://cdn.glitch.global/b6de83ad-1877-4ed7-8cf4-34934d3cadee/prezi-hungary.webp?v=1646534780189"
+			"imageurl": "https://cdn.glitch.global/b6de83ad-1877-4ed7-8cf4-34934d3cadee/prezi-inc-vector-logo.png?v=1646544863463"
 		},
 		{
 			"name": "Semcorp",
