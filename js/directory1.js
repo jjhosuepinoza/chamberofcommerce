@@ -24,8 +24,10 @@ fetch(requestURL).then(function (response) {return response.json();})
     logo.setAttribute('src', company.imageurl);
     logo.setAttribute('alt', `Logo of ${company.name}`);
     logo.setAttribute('loading', 'lazy');
+  
 
     card.appendChild(companyName);
+    
     card.appendChild(companyAddress);
     card.appendChild(companyPhone);
     card.appendChild(companySite);
